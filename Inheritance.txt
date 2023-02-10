@@ -1,0 +1,137 @@
+//program to demonistrate single inheritance
+public class A {
+	int p=10;
+	void display() {
+		System.out.println("value of p:"+p);
+	}
+	
+	
+		
+	}
+	
+public class B extends A{
+	int q=20;
+	
+		
+	void show() {
+		System.out.println("value of q:"+q);
+	}
+		void add() {
+			System.out.println("addition of p and q:"+(p+q));
+	}
+	}
+
+public class InhertEx {
+
+	public static void main(String[] args) {
+		B obj=new B();
+		obj.display();
+		obj.show();
+		obj.add();
+			
+	}
+
+        }
+
+output:
+value of p:10
+value of q:20
+addition of p and q:30
+
+//program to demonistrate Multilevel inheritance
+public class A {
+	int p=10;
+	void display() {
+		System.out.println("value of p:"+p);
+	}
+	
+	
+		
+	}
+	
+public class B extends A{
+	int q=20;
+	
+		
+	void show() {
+		System.out.println("value of q:"+q);
+	}
+		
+	}
+public class C extends B {
+	int r=30;
+void print() {
+	System.out.println("value of r:"+r);
+	
+}
+	
+	void add() {
+		System.out.println("Addition of p and q and r is:"+(p+q+r));
+}
+
+}
+public class InhertEx {
+
+	public static void main(String[] args) {
+		C obj=new C();
+		obj.display();
+		obj.show();
+		obj.print();
+		obj.add();
+			
+}
+
+}
+
+output:
+value of p:10
+value of q:20
+value of r:30
+Addition of p and q and r is:60
+
+//program to demonistrate heirachial inheritance
+public class A {
+	int p=10;
+	void display() {
+		System.out.println("value of p:"+p);
+	}
+	
+	
+		
+	}
+	
+public class B extends A{
+	int q=20;
+	
+		
+	void show() {
+		System.out.println("value of q:"+q);
+	}
+		void add() {
+			System.out.println("addition of p and q:"+(p+q));
+	}
+	}
+public class InhertEx {
+
+	public static void main(String[] args) {
+		B obj=new B();
+		obj.display();
+		obj.show();
+		obj.add();
+		C obj1=new C();
+		obj1.print();
+		obj1.add();
+			
+	}
+
+}
+
+output:
+value of p:10
+value of q:20
+addition of p and q:30
+value of r:30
+Addition of p and q and r is:40
+
+
+

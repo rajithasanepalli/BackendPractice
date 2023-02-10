@@ -1,0 +1,136 @@
+1)//program for hybrid inheritance using heirachial inheritance and single inheritance
+public class A {
+	void car() {
+		System.out.println("maximum speed of car=440 km/hr");
+	}
+	}
+
+public class B extends A {
+	void bike() {
+		System.out.println("maximum speed of bike=180 km/hr");
+		}
+	}
+public class C extends A {
+	void auto() {
+		System.out.println("maximum speed of auto=445 km/hr");
+	}
+}
+public class D extends B{
+	void scooty() {
+		System.out.println("maximum speed of scooty=70 km/hr");
+	}
+}
+public class HybridEx {
+
+	public static void main(String[] args) {
+		B obj1=new B();
+		obj1.car();
+		obj1.bike();
+		C obj2 =new C();
+		obj2.car();
+		obj2.auto();
+		D  obj3 =new D();
+		obj3.scooty();
+		
+	}
+
+}
+
+output:
+maximum speed of car=440 km/hr
+maximum speed of bike=180 km/hr
+maximum speed of car=440 km/hr
+maximum speed of auto=445 km/hr
+maximum speed of scooty=70 km/hr
+
+
+
+
+2)// another program for hybrid inheritance using heirachial inheritance and single inheritance
+public class A {
+	void display() {
+		System.out.println("iam display method in in class A");
+	}
+
+}
+public class B extends A {
+	void show() {
+	System.out.println("iam show metod in class B");
+
+}
+}
+public class C extends A {
+void print() {
+	System.out.println("iam print method in class C");
+}
+}
+public class D extends B {
+	void enter() {
+		System.out.println("iam enter method in class D");
+	}
+
+}
+public class HybridEx {
+
+	public static void main(String[] args) {
+		B obj1=new B();
+		obj1.display();
+		obj1.show();
+		C obj2 =new C();
+		obj2.display();
+		obj2.print();
+		D  obj3 =new D();
+		obj3.enter();
+	}
+
+}
+output:
+iam display method in in class A
+iam show metod in class B
+iam display method in in class A
+iam print method in class C
+iam enter method in class D
+
+
+
+3)//program for hybrid inheritance by using heiracial and multiple inheritance
+public interface A {
+	void car();
+
+}
+public interface B extends A {
+void bike();
+}
+
+public interface C extends A {
+void auto();
+}
+public class D implements B,C {
+public void car() {
+	System.out.println("maximum speed of car=440 km/hr");
+}
+public void bike() {
+	System.out.println("maximum speed of car=180 km/hr");
+}
+public void auto() {
+	System.out.println("maximum speed of auto=445 km/hr");
+}
+}
+public class HybridIntfc {
+
+	public static void main(String[] args) {
+		D obj =new D();
+		obj.car();
+		obj.bike();
+		obj.auto();
+
+	}
+
+}
+
+output:
+maximum speed of car=440 km/hr
+maximum speed of car=180 km/hr
+maximum speed of auto=445 km/hr
+
+

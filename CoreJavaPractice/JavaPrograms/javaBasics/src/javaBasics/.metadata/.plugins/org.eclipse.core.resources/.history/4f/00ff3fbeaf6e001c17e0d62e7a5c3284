@@ -1,0 +1,11 @@
+package oopsconcept;
+
+public class B extends A {
+	void add() {
+		input();
+		c=a+b;
+		
+		System.out.println("Multiplication of two numbers="+c);
+	}
+
+}

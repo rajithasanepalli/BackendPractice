@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\JavaFullStackTraining\Day6\JavaPrograms\ArraysExample1\src\main\java\com\mouritech\sumofarrays\SumOfArryasMain.java"/>
+			<item value="C:\JavaFullStackTraining\Day6\JavaPrograms\SampleMovieMavenProject\src\main\java\com\mouritech\jsonex\JavaJsonEncoding.java"/>
+			<item value="C:\JavaFullStackTraining\Day6\JavaPrograms\ArraysEx\src\com\mouritech\sumofarrays\SumOfArrays.java"/>
+			<item value="C:\JavaFullStackTraining\Day6\JavaPrograms\ArraysEx"/>
+			<item value="C:\JavaFullStackTraining\Day6\JavaPrograms\MovieMavenProject\pom.xml"/>
+			<item value="C:\JavaFullStackTraining\Day6\JavaPrograms"/>
+			<item value="C:\JavaFullStackTraining\Day6\JavaPrograms\SampleWebapp"/>
+			<item value="C:\JavaFullStackTraining\Day6\JavaPrograms\JdbcExamples\src\callablestatementex\GetAllMovieUsingCallableStmt.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.mouritech.subarratex.SubarraysEx"/>
+		</list>
+		<list key="groupId">
+			<item value="com.mouritech.subarratex"/>
+		</list>
+		<list key="artifactId">
+			<item value="SubarraysEx"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
+	</section>
+</section>

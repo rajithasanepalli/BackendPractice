@@ -1,0 +1,5 @@
+package employee.management.exception;
+
+public class ResourceNotFoundException {
+
+}

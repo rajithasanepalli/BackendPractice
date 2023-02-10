@@ -1,0 +1,5 @@
+package employee.management.repository;
+
+public interface EmployeeRepository {
+
+}

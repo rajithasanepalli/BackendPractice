@@ -1,0 +1,29 @@
+package javaBasics;
+
+import java.util.Scanner;
+
+public class FindNumbersFromUser {
+
+	public static void main(String[] args) {
+		int a;
+		
+		Scanner sc =new Scanner(System.in);
+	
+		a=sc.nextInt();
+		int arr[]=new int[10];
+		for(int i=0;i<a;i++) {
+			arr[i]=sc.nextInt();
+			System.out.println("Enter Array Elements");
+		
+		for(int j=0;j<arr.length;j++) {
+			System.out.println(arr[j]);
+		}
+			
+		}
+	
+		
+		
+
+	}
+
+}

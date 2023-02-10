@@ -1,0 +1,11 @@
+package oopsconcept;
+
+import java.util.Scanner;
+
+public class Rectangle extends Shape {
+	void area() {
+		double area=(length*breadth);
+		System.out.println("Area of Rectangle="+area);
+	}
+
+}

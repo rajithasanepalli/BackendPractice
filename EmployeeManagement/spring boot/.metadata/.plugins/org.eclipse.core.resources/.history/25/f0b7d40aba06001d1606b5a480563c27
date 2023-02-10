@@ -1,0 +1,17 @@
+spring.datasource.url=jdbc:mysql://localhost:3306/employee_management?allowPublicKeyRetrieval=true&useSSL=false
+spring.datasource.username=root
+spring.datasource.password=
+
+#spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQL5InnoDBDialect
+#spring.jpa.properties.hibernate.format_sql=true
+#spring.jpa.hibernate.ddl-auto =update
+spring.datasource.driverClassName = com.mysql.jdbc.Driver
+
+spring.jpa.database = MYSQL
+
+
+spring.jpa.hibernate.ddl-auto = create
+spring.jpa.hibernate.dialect = org.hibernate.dialect.MySQL5Dialect
+spring.jpa.hibernate.naming_strategy = org.hibernate.cfg.ImprovedNamingStrategy
+spring.jpa.show-sql=true
+server.port=8080

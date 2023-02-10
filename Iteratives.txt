@@ -1,0 +1,112 @@
+1Q) public class Iterativereverse {
+
+	public static void main(String[] args) {
+	for(int i=1;i<=3;i++) {
+		for(int j=3;j>=i;j--) {
+			System.out.print(j);
+		}
+		System.out.println();
+}
+}
+} 
+
+output: 3 2 1
+        3 2
+        3 
+2Q)package Iterative;
+
+public class Iterative4 {
+
+	public static void main(String[] args) {
+		for (int i = 5; i >= 1; i--) {
+			for (int j = 1; j <= i; j++) {
+				System.out.print("\t" + "*");
+			}
+			System.out.println();
+}
+}
+}
+
+output:   * * * * *
+          * * * *
+          * * *
+          * * 
+          *
+
+
+Extra problems:
+
+1)package Iterative;
+
+public class Doiterative {
+
+	public static void main(String[] args) {
+	for(int i=1;i<=3;i++) {
+		for(int j=1;j<=i;j++) {
+			System.out.print("\t "+"*");
+		}
+		System.out.println();
+	}
+
+	}
+
+}
+
+output:*
+       * * *
+       * * *
+
+2)
+package Iterative;
+
+public class Foriterative2 {
+
+	public static void main(String[] args) {
+	for(int i=3;i>=1;i--) {
+		for(int j=1;j<=i;j++) {
+			System.out.print(j);
+			}
+		System.out.println();
+	}
+
+	}
+
+}
+
+output:123 
+       12
+       1
+3)
+package Iterative;
+
+public class Iterative3 {
+
+	public static void main(String[] args) {
+		for (int i = 3; i >= 1; i--) {
+			for (int j = 1; j <= i; j++) {
+				System.out.print(j);
+			}
+			System.out.println();
+		}
+
+	}
+
+}
+	
+
+
+output:123  
+       12 
+       1  
+ 
+                    
+		
+
+	
+
+
+	
+
+	
+
+

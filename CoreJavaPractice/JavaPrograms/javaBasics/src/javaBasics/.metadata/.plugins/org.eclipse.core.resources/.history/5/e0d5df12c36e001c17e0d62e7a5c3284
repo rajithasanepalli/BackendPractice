@@ -1,0 +1,15 @@
+package oopsconcept;
+
+public class Square  extends Rectangle{
+	
+		public void square() {
+			length=sc.nextDouble();
+		width=sc.nextDouble();
+			double area=length*width;
+			
+		      System.out.println("Area of square="+area);
+		   }
+
+
+
+}

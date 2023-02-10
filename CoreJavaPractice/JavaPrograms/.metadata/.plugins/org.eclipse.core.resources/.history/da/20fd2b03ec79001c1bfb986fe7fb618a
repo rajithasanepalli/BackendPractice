@@ -1,0 +1,14 @@
+package com.mouritech.subarratex.SubarraysEx;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class SubArrayMainTest {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

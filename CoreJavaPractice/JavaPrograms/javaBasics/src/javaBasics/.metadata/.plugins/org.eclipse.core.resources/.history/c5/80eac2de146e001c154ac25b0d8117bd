@@ -1,0 +1,13 @@
+package javaBasics;
+
+public class RemoveDupFromString {
+
+	public static void main(String[] args) {
+		String s1="Rajitha";
+		System.out.println("Intial string="+s1);
+		
+		
+
+	}
+
+}

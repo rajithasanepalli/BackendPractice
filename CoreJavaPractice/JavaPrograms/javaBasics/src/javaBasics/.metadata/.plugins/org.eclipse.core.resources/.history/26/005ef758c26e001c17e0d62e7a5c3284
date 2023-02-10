@@ -1,0 +1,16 @@
+package oopsconcept;
+
+public class ShapesMain {
+
+	public static void main(String[] args) {
+		  Rectangle r = new Rectangle();
+		  Circle c= new Circle();
+		   c.circle();
+		   r.shape();
+		   r.rectangle();
+		 
+		
+
+	}
+
+}

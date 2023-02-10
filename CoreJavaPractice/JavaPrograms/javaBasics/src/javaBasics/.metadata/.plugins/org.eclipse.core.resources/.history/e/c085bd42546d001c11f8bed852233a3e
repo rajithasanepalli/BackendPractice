@@ -1,0 +1,32 @@
+package javaBasics;
+
+import java.util.Arrays;
+
+public class SplitArray {
+
+	public static void main(String[] args) {
+		int a[]= {58,24,13,15,63,9,8,81,1,78};
+		int n=a.length;
+		int c[]= new int[(n)/2];
+		int d[]= new int [n-c.length];
+		
+		System.out.println("Intial Array");
+		for(int i=0;i<n;i++) {
+			System.out.print("" +i+  ",");
+		};
+		for(int i=0;i<n;i++) {
+			if(i<c.length) {
+				c[i]=a[i];
+			}
+			else {
+				d[i-c.length]=a[i];
+			}
+			
+		}
+		System.out.println(Arrays.toString(c));
+		//System.out.println(Arrays.toString(d));
+		
+		}
+	
+
+}

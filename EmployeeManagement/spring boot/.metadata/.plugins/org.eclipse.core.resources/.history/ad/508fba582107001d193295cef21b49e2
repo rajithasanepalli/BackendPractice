@@ -1,0 +1,14 @@
+package com.mouritech.emp.service;
+
+import java.util.List;
+
+import com.mouritech.emp.exception.ResourceNotFoundException;
+import com.mouritech.emp.model.Employee;
+
+public interface EmployeeService {
+	
+	 Employee saveEmployee(Employee employee) throws ResourceNotFoundException;
+
+	List<Employee> getAll();
+
+}

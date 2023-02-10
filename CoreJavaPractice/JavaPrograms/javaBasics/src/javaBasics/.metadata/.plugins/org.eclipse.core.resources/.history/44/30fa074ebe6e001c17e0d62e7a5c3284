@@ -1,0 +1,13 @@
+package oopsconcept;
+
+import java.util.Scanner;
+
+public class Circle extends Shape {
+	
+	void area() {
+		
+		float area=(22/7)*(radius*radius);
+		System.out.println("Area of Circle="+area);
+	}
+
+}

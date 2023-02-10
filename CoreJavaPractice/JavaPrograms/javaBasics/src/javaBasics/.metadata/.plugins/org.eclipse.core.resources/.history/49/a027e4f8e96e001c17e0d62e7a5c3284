@@ -1,0 +1,19 @@
+package accesmodifiers;
+
+import accesmodifiersemp.Employee;
+
+public class ConstructorMain {
+
+	public static void main(String[] args) {
+		Project p=new Project ();
+		p.ProjectDetails( 01,"Reef", 10);
+		Report r=new Report();
+		r.viewReportDetals();
+		Employee e=new Employee();
+		e.viewEmployeeDetails();
+		
+		
+
+	}s
+
+}
